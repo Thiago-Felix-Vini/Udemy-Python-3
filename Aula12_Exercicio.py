@@ -1,7 +1,7 @@
 # MEU IMC
 nome = 'Thiago Vinicius'
 altura = 1.75
-peso = 124
+peso = 100
 imc = peso / altura ** 2
 
 print (nome, 'tem :', altura, 'de altura')

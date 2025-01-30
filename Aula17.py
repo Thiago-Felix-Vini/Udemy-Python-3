@@ -1,9 +1,11 @@
 # IF / ELIF      / ELSE
 # SE / SE NÃO SE / SE NÃO
-condicao1 = False
-condicao2 = False
-condicao3 = False
-condicao4 = False
+# UTILIZANDO O DEBUGGER
+
+condicao1 = True
+condicao2 = True
+condicao3 = True
+condicao4 = True
 
 if condicao1:
     print('Código para condição 1')

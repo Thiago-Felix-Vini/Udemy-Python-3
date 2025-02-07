@@ -21,6 +21,6 @@ modulo = 55 % 2 # Resto da divisão
 print ("Modulo", modulo)
 
 # checando se é divisivel, também pode ser utilizaado para checar se o número é par ou multiplo do outro número
-print(10 % 8 == 0) #Os dois sinais de igual checa se o número retornara 0 e se é divisivel se no caso não ele ira retornar false
+print(10 % 8 == 0) #Os dois sinais de igual checa se o número retornara 0 e se é divisivel, se no caso não for ele ira retornar false
 print(16 % 8 == 0)
 print(10 % 2 == 0) # Checando se é par devera retornar "True"

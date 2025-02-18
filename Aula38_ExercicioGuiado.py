@@ -10,7 +10,7 @@ while True:
         num_int_2 = float(num_2)
         
     except:
-        print('Você não digitou um número valido')  
+        print('Você não digitou um número válido')  
         continue
     
     print(f'Escolha um operador:')
@@ -20,7 +20,7 @@ while True:
     operadores_permitidos = '1234'
     
     if opera not in operadores_permitidos:
-        print('Operador invávlido.')
+        print('Operador inválido.')
         continue
     
     opera_int = int(opera)
@@ -43,7 +43,7 @@ while True:
         resul_multi = (num_int_2 * num_int_1)
         print(f'O resultado da sua soma foi: {resul_multi}')
 
-    sair = input('Quer sair? [s]im: ').lower().startswith('s') # .lower (deixa tudo em letra minuscula), .startswith('s') (Identifica a condiçõo emposta enre aspas e da como True)
+    sair = input('Quer sair? [s]im: ').lower().startswith('s') # .lower (deixa tudo em letra minuscula), .startswith('s') (Identifica a condiçõo emposta entre aspas e da como True)
     if sair is True:
         print('Saindo...')
         break

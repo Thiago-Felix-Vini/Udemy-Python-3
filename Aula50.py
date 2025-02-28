@@ -23,7 +23,7 @@ lista_c = lista_a + lista_b # juntando as listas com concatenação
 #                             e passando para uma variavel
 
 lista_d = lista_a.extend(lista_b) # Estende a lista A para a lista B, 
-#                                   mas nõo é possivel guardar 
+#                                   mas nõo é recomendavel guardar 
 #                                   pois retorna NONE.
 
 print(lista_c)
